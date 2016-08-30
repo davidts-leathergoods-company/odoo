@@ -3319,7 +3319,7 @@ instance.web.form.FieldMany2One = instance.web.form.AbstractField.extend(instanc
             // disabled to solve a bug, but may cause others
             //close: anyoneLoosesFocus,
             minLength: 0,
-            delay: 250
+            delay: 30
         });
         this.$input.autocomplete("widget").openerpClass();
         // used to correct a bug when selecting an element by pushing 'enter' in an editable list
@@ -5663,3 +5663,4 @@ instance.web.form.custom_widgets = new instance.web.Registry({
 };
 
 // vim:et fdc=0 fdl=0 foldnestmax=3 fdm=syntax:
+

@@ -1,0 +1,16 @@
+--- web/static/src/js/view_form.js	2014-01-21 01:24:59.000000000 +0100
++++ web/static/src/js/view_form.js	2014-02-10 15:20:49.143429168 +0100
+@@ -3277,7 +3277,7 @@
+             // disabled to solve a bug, but may cause others
+             //close: anyoneLoosesFocus,
+             minLength: 0,
+-            delay: 250
++            delay: 30
+         });
+         this.$input.autocomplete("widget").openerpClass();
+         // used to correct a bug when selecting an element by pushing 'enter' in an editable list
+@@ -5568,3 +5568,4 @@
+ };
+ 
+ // vim:et fdc=0 fdl=0 foldnestmax=3 fdm=syntax:
++
